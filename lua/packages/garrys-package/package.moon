@@ -17,24 +17,24 @@ autorun = true
 isolation = true
 
 -- client files
-send = {
-    --"my/client/file.lua",
-    --"my/client/file2.lua"
-}
+send = nil --{
+            --"my/client/file.lua",
+            --"my/client/file2.lua"
+        --}
 
 --if false, the logger will not be created by default
 logger = false
 
 --if nil, all gamemodes are allowed
-gamemodes = {
-    "sandbox",
-    "darkrp"
-}
+gamemodes = nil --{
+            --    "sandbox",
+            --    "darkrp"
+            --}
 
 --if nil, all maps are allowed
-maps = {
-    "gm_construct"
-}
+maps = nil --{
+            --"gm_construct"
+        --}
 
 --if true, then the package is allowed to run only in a singleplayer game
 singleplayer = false
