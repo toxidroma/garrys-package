@@ -18,7 +18,7 @@ isolation = true
 
 -- client files
 send = nil --{
-            --"my/client/file.lua",
+            --"my/client/file.lua"
             --"my/client/file2.lua"
         --}
 
@@ -27,7 +27,7 @@ logger = false
 
 --if nil, all gamemodes are allowed
 gamemodes = nil --{
-            --    "sandbox",
+            --    "sandbox"
             --    "darkrp"
             --}
 
